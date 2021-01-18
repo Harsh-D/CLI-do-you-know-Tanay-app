@@ -1,7 +1,7 @@
 // Required npm dependencies : readline-sync
 var readlineSync = require("readline-sync");
 var score = 0;
-var userName = readlineSync.question("Whats your name ? ");
+var userName = readlineSync.question("What is your name ? ");
 
 console.log(`Welcome ${userName} !`);
 
